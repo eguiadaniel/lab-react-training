@@ -5,7 +5,7 @@ import './Idcard.css';
 class Idcard extends Component {
   render() {
     return (
-      <div>        
+      <div>
         <div className="Idcard">
           <div className="Idcard-img-container">
             <img src={this.props.picture} className="Idcard-img" alt="Idcard" />
