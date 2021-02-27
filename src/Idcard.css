@@ -1,0 +1,28 @@
+.Idcard {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.Idcard-items > li {
+  list-style: none;
+  line-height: 1.1;
+  text-align: left !important;
+}
+
+.Idcard-items {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.Idcard-img-container {
+  width: 200px;
+  padding-right: 20px;
+}
+
+.Idcard-img {
+  height: 100%;
+  padding-bottom: 0;
+}
