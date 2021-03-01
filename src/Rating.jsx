@@ -13,9 +13,9 @@ const Rating = ({ children }) => {
     '☆'.repeat(5 - Math.round(ratingValue));
 
   return (
-    <div style={{ ratingColor }}>
+    <div style={{ color: ratingColor }}>
       {numberStars}
-      {ratingColor}
+      {/* {ratingColor} */}
     </div>
   );
 

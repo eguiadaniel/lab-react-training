@@ -8,6 +8,9 @@ import CreditCardContainer from './CreditCardContainer';
 import Rating from './Rating';
 import DriverCard from './DriverCard';
 import LikeButton from './LikeButton';
+import ClickablePicture from './ClickablePicture';
+import Dice from './Dice';
+import Carousel from './Carousel';
 
 function App() {
   return (
@@ -67,6 +70,19 @@ function App() {
         }}
       />
       <LikeButton /> <LikeButton />
+      <ClickablePicture
+        img="/img/persons/maxence.png"
+        imgClicked="/img/persons/maxence-glasses.png"
+      />
+      <Carousel
+        imgs={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg',
+        ]}
+      />
+      <Dice />
     </div>
   );
 }
