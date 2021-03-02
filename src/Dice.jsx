@@ -7,22 +7,22 @@ class Dice extends React.Component {
       face: 0,
     };
 
-    this.timeOut = setTimeout(
+    // this.timeOut = setTimeout(
       
-      this.randomDice = () => {
-        console.log('increased');
+    //   this.randomDice = () => {
+    //     console.log('increased');
 
-        if (this.state.count < 3) {
-          this.setState({
-            count: this.state.count + 1,
-          });
-        } else {
-          this.setState({
-            count: 0,
-          });
-        }
-      };
-      , 1000);
+    //     if (this.state.count < 3) {
+    //       this.setState({
+    //         count: this.state.count + 1,
+    //       });
+    //     } else {
+    //       this.setState({
+    //         count: 0,
+    //       });
+    //     }
+    //   };
+    //   , 1000);
   }
 
   render() {
