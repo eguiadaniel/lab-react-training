@@ -40,3 +40,34 @@
 .dice{
   width: 150px;
 }
+
+.table-list{
+  /* display: grid; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(160px, 1fr));
+  /* grid-template-rows: 100px 100px 100px; */
+  /* grid-template-columns: 100px 100px 100px; */
+  grid-gap: 6px;
+}
+
+.table-item{
+  height: 4em;
+  border: solid;
+  list-style: none;  
+  /* margin: 4px; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 700;
+
+}
+
+.table-item:nth-child(odd) {
+  background: white;
+}
+
+.table-item:nth-child(even) {
+  background: tomato;
+}
