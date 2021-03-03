@@ -9,7 +9,7 @@ import Rating from './Rating';
 import DriverCard from './DriverCard';
 import LikeButton from './LikeButton';
 import ClickablePicture from './ClickablePicture';
-// import Dice from './Dice';
+import Dice from './Dice';
 import Carousel from './Carousel';
 
 function App() {
@@ -82,7 +82,7 @@ function App() {
           'https://randomuser.me/api/portraits/men/2.jpg',
         ]}
       />
-      {/* <Dice /> */}
+      <Dice />
     </div>
   );
 }
