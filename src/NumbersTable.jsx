@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
 
-
-
-
 function NumbersTable(props) {  
   const numbers = [];
   let min = 1;
