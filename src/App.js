@@ -13,10 +13,12 @@ import Dice from './Dice';
 import Carousel from './Carousel';
 import NumbersTable from './NumbersTable';
 import FaceBook from './FaceBook'
+import SignupPage from './SignupPage'
 
 function App() {
   return (
     <div className="App">
+      <SignupPage />
       <h1>Idcard</h1>
       <Idcard
         lastName="Doe"
