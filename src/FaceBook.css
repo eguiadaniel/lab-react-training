@@ -50,3 +50,29 @@
 .DriverRating {
   color: tomato;
 }
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile__image{
+  display: flex;
+  width: 150px;
+}
+
+.profile__details{
+  font-size: 20px;
+  list-style: none;
+  line-height: 1.1;
+  text-align: left !important;
+}
+
+.highlighted {
+  background-color: hsla(180, 100%, 78%, 0.664);
+}
